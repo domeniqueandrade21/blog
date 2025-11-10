@@ -1,0 +1,100 @@
+  
+        /* Fuente y colores principales */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #b0bff0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.7;
+        }
+
+        /* Barra de navegación */
+        nav {
+            background-color: #589cf5;
+            padding: 15px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #f5f3f4;
+        }
+
+        /* Contenido principal */
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #2432b4;
+            text-align: center;
+            font-size: 2.5em;
+        }
+
+        p {
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+
+        /* Imagen de portada */
+        img {
+            display: block;
+            margin: 20px auto;
+            border-radius: 15px;
+            max-width: 300px;
+            transition: transform 0.3s;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Pie de página */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color:#589cf5;
+            color: #ffffff;
+            font-size: 0.9em;
+            margin-top: 40px;
+        }
+
+        /* Adaptabilidad */
+        @media (max-width: 600px) {
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+
+            main {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+        }

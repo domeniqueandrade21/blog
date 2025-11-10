@@ -1,0 +1,128 @@
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f9fafc;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.7;
+        }
+
+        /* Navegación */
+        nav {
+            background-color: #ffd6e0;
+            padding: 15px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #e91e63;
+        }
+
+        /* Contenedor principal */
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            background-color: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #e91e63;
+            text-align: center;
+            font-size: 2.5em;
+        }
+
+        h2 {
+            color: #e91e63;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .hobbies {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 40px;
+            gap: 30px;
+        }
+
+        .hobby {
+            background-color: #fff4f7;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .hobby:hover {
+            transform: translateY(-5px);
+        }
+
+        .hobby img {
+            width: 100%;
+            border-radius: 12px;
+            margin-bottom: 15px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+        }
+
+        .hobby strong {
+            color: #e91e63;
+            display: block;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        /* Pie de página */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #ffd6e0;
+            color: #555;
+            font-size: 0.9em;
+            margin-top: 40px;
+        }
+
+        /* Adaptabilidad */
+        @media (max-width: 700px) {
+            main {
+                padding: 25px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .hobbies {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .hobby {
+                width: 90%;
+            }
+        }
+  
