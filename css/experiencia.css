@@ -1,99 +1,143 @@
 
-        /* Fuente y estilo general */
-        body {
-            font-family: 'Poppins', sans-serif;
-            background-color: #f9fafc;
-            color: #333;
-            margin: 0;
-            padding: 0;
-            line-height: 1.7;
-        }
+       /* Fuente y estilo general */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #b0bff0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+}
 
-        /* Barra de navegación */
-        nav {
-            background-color: #ffd6e0;
-            padding: 15px 0;
-            text-align: center;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
+/* Barra de navegación */
+nav {
+    background-color: #589cf5;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
 
-        nav ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 
-        nav ul li {
-            display: inline-block;
-            margin: 0 20px;
-        }
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
 
-        nav ul li a {
-            text-decoration: none;
-            color: #333;
-            font-weight: 600;
-            transition: color 0.3s;
-        }
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    transition: color 0.3s;
+}
 
-        nav ul li a:hover {
-            color: #e91e63;
-        }
+nav ul li a:hover {
+    color: #2432b4;
+}
 
-        /* Contenido principal */
-        main {
-            max-width: 900px;
-            margin: 40px auto;
-            background: white;
-            padding: 40px;
-            border-radius: 15px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-        }
+/* Contenido principal */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
 
-        h1 {
-            color: #e91e63;
-            text-align: center;
-            font-size: 2.5em;
-            margin-bottom: 40px;
-        }
+h1 {
+    color: #2432b4;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
 
-        /* Experiencia sección */
-        .experiencia {
-            font-weight: 600;
-            font-size: 1.3em;
-            margin-bottom: 20px;
-            border-bottom: 2px solid #e91e63;
-            padding-bottom: 8px;
-        }
+/* Experiencia sección */
+.experiencia {
+    font-weight: 600;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #589cf5;
+    padding-bottom: 8px;
+}
 
-        .cargo {
-            font-weight: 700;
-            font-size: 1.2em;
-            margin-top: 25px;
-            color: #e91e63;
-        }
+/* Cargo */
+.cargo {
+    font-weight: 700;
+    font-size: 1.2em;
+    margin-top: 25px;
+    color: #2432b4;
+}
 
-        .empresa {
-            font-style: italic;
-            font-weight: 600;
-            color: #555;
-            margin-bottom: 10px;
-        }
+/* Empresa */
+.empresa {
+    font-style: italic;
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 10px;
+}
 
-        .fechas {
-            font-weight: 500;
-            font-size: 0.95em;
-            color: #777;
-            margin-bottom: 15px;
-        }
+/* Fechas */
+.fechas {
+    font-weight: 500;
+    font-size: 0.95em;
+    color: #777;
+    margin-bottom: 15px;
+}
 
-        ul.lista-tareas {
-            margin-left: 20px;
-            list-style-type: disc;
-            color: #444;
-            font-weight: 400;
-            font-size: 1em;
-        }
+/* Lista de tareas */
+ul.lista-tareas {
+    margin-left: 20px;
+    list-style-type: disc;
+    color: #444;
+    font-weight: 400;
+    font-size: 1em;
+}
 
-        ul.lista-tareas li {
-            margin-bottom: 8px;
-        }
+ul.lista-tareas li {
+    margin-bottom: 8px;
+}
+
+/* Imagen de experiencia */
+.experiencia-img {
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.experiencia-img:hover {
+    transform: scale(1.05);
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #589cf5;
+    color: #ffffff;
+    font-size: 0.9em;
+    margin-top: 40px;
+}
+
+/* Adaptabilidad */
+@media (max-width: 700px) {
+    main {
+        padding: 25px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .experiencia-img {
+        max-width: 90%;
+    }
+}

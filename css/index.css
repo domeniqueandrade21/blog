@@ -48,6 +48,12 @@
             border-radius: 15px;
             box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
+            main p {
+        text-align: justify;
+        text-justify: inter-word; /* mejora la distribución del texto */
+        margin-bottom: 18px;
+    }
+
 
         h1 {
             color: #2432b4;
